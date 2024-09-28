@@ -34,7 +34,17 @@ python main.py /path/to/imagenet/
 python evaluate.py /path/to/imagenet/ /path/to/checkpoint/resnet50.pth --lr-classifier 0.3
 ```
 ### Citation
-'''
-'''
+
+```
+@article{liu2022bridging,
+  title={Bridging the gap from asymmetry tricks to decorrelation principles in non-contrastive self-supervised learning},
+  author={Liu, Kang-Jun and Suganuma, Masanori and Okatani, Takayuki},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={19824--19835},
+  year={2022}
+}
+
+```
 ## Acknowledgement
 Our code is inherited from [Barlow Twins](https://github.com/facebookresearch/barlowtwins). We thank the authors of the open source project.
